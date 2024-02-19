@@ -19,17 +19,16 @@ body {
 	cursor: pointer;
 }
 
-
 @media (max-width: 768px) {
-  .tile {
-    width: calc(25% - 5px);
-    height: calc(25% - 5px);
+	.tile {
+	  width: 50px;
+	  height: 50px;
+	}
   }
-}
-
-@media (max-width: 480px) {
-  .tile {
-    width: calc(50% - 5px);
-    height: calc(50% - 5px);
+  
+  @media (max-width: 480px) {
+	.tile {
+	  width: 75px;
+	  height: 75px;
+	}
   }
-}
