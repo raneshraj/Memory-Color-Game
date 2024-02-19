@@ -18,3 +18,18 @@ body {
 	border: 5px solid #444444;
 	cursor: pointer;
 }
+
+
+@media (max-width: 768px) {
+  .tile {
+    width: calc(25% - 5px);
+    height: calc(25% - 5px);
+  }
+}
+
+@media (max-width: 480px) {
+  .tile {
+    width: calc(50% - 5px);
+    height: calc(50% - 5px);
+  }
+}
