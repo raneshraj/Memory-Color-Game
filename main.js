@@ -1,5 +1,5 @@
 const tilesContainer = document.querySelector(".tiles");
-const colors = ["aqua", "DarkGray", "crimson", "blue", "chocolate", "gold", "greenyellow", "teal"];
+const colors = ["aqua", "purple", "crimson", "blue", "chocolate", "gold", "greenyellow", "teal"];
 const colorsPicklist = [...colors, ...colors];
 const tileCount = colorsPicklist.length;
 
